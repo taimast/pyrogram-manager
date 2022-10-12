@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyrogram-manager"
+version = "0.1.0"
+description = ""
+authors = ["taimast <81189712+taimast@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "pyrogram_manager"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.10.2"
+Pyrogram = "^2.0.57"
+TgCrypto = "^1.2.4"
+uvloop = {version = "^0.17.0", platform = "linux"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
