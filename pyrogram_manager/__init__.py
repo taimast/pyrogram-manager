@@ -1,5 +1,5 @@
-from dispatcher import BaseDispatcher
-from patched import *
+from .dispatcher import BaseDispatcher
+from .patched import *
 
 try:
     import uvloop as _uvloop
