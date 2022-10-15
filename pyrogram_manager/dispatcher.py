@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from pyrogram.handlers.handler import Handler
 
-from patched import Client
+from .patched import Client
 
 
 class BaseDispatcher(BaseModel):
